@@ -329,7 +329,10 @@ Config.Locations = {
             icon = "material-icons",
             materialIcon = 'construction',
         },
-        restrictions = { deniedClasses = { 18 } },
+        restrictions = { 
+            deniedClasses = { 18 },
+            job = { 'mechanic' },  
+        }, 
         zones = {
             { coords = vector3(144.96, -3030.46, 7.06), length = 6.0, width = 4.0, heading = 180.0, minZ = 6.0, maxZ = 10.0 },
             { coords = vector3(135.92, -3030.5, 7.04), length = 6.0, width = 4.0, heading = 180.0, minZ = 6.0, maxZ = 10.0 },
@@ -355,7 +358,7 @@ Config.Locations = {
             text = "MRPD Motorworks",
         },
         restrictions = {
-            job = { 'police', 'bcso', 'sasp' },
+            job = { 'mechanic' },
             allowedClasses = { 18 },
         },
         zones = {
@@ -383,7 +386,7 @@ Config.Locations = {
             text = "Pillbox Motorworks"
         },
         restrictions = {
-            job = { 'ambulance' },
+            job = { 'mechanic' },
             allowedClasses = { 18 },
         },
         zones = {
